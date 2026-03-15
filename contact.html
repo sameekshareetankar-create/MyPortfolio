@@ -1,61 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Contact | Sameeksha Reetankar</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-
-   <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="about.html#projects">Projects</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="about.html#projects">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
     <main>
 
-        
-        <section id="contact" class="contact-section">
-            <h2>Contact Details</h2>
-            <p>Email: sameekshareetankar@gmail.com</p>
-            <p>Phone: +91 9336552886</p>
-            <p>Linkedin: <a href="https://www.linkedin.com/in/sameekshareetankar" target= "blank">linkedin.com/in/sameekshareetankar</a></p>
-            <p>Location: Sonipat, Haryana, India</p>
-        </section>
+        <section class="contact-section">
 
-        
-        <section>
-            <h2>Contact Form</h2>
+            <h2>Contact</h2>
 
-            <form action="#" method="post">
+            <div class="contact-grid">
 
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                    <p>Email: sameekshareetankar@gmail.com</p>
 
-                <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject"><br><br>
+                    <p>Phone: +91 9336552886</p>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                    <p>
+                        LinkedIn:
+                        <a href="https://www.linkedin.com/in/sameekshareetankar" target="_blank">
+                            linkedin.com/in/sameekshareetankar
+                        </a>
+                    </p>
 
-                <button type="submit">Send</button>
+                    <p>Location: Sonipat, Haryana, India</p>
+                </div>
 
-            </form>
+                <!-- Contact Form -->
+                <div class="contact-form">
+
+                    <h3>Send a Message</h3>
+
+                    <form action="#" method="post">
+
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+
+                        <button type="submit">Send Message</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Sameeksha Reetankar</p>
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Follow Me</h3>
+                <p>LinkedIn</p>
+                <p>GitHub</p>
+                <p>Email</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Useful Links</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="about.html#projects">Projects</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Information</h3>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+        <p class="footer-bottom">© 2026 Sameeksha Reetankar</p>
+
     </footer>
 
 </body>
+
 </html>
 
 
